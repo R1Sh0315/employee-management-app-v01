@@ -1,0 +1,21 @@
+.title {
+
+    display: flex;
+    text-align: center;
+    display: block;
+    margin: 8px 0;
+}
+
+.dialog-container {
+    &__form {
+        display: flex;
+        flex-direction: column;
+
+
+
+        .input-full-width {
+            width: 75%;
+            padding: 0 15px;
+        }
+    }
+}
